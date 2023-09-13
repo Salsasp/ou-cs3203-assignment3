@@ -49,3 +49,4 @@ int main()
         cout << num << " ";
     }
 }
+ //COMMENT FOR PART 10
