@@ -12,9 +12,17 @@ int vectorSum(vector<int> nums)
     }
     return sum;
 }
+int vectorProduct(vector<int> nums)
+{
+    int product = 0;
+    for(int num : nums)
+    {
+        product *= num;
+    }
+    return product;
+}
 
 int main()
 {
     vector<int> myList = {1,2,3,4,5};
-    cout << vectorSum(myList);
 }
