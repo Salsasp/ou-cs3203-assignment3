@@ -42,4 +42,10 @@ int main()
     nums.push_back(num2);
     cout << "Sum: " << vectorSum(nums) << endl;
     cout << "Product: " << vectorProduct(nums) << endl;
+    cout << "Reverse list" << endl;
+    nums = reverseVector(nums);
+    for(int num : nums)
+    {
+        cout << num << " ";
+    }
 }
